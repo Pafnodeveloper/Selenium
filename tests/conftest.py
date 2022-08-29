@@ -17,7 +17,7 @@ def get_options():
 def get_webdriver(get_options):
     options = get_options
     # driver = webdriver.Chrome(ChromeDriverManager(version="104.0.5112.79").install())
-    driver = webdriver.Chrome(executable_path="D:/Programs/PP/Selenium/chromedriver.exe", options=options)
+    driver = webdriver.Chrome(executable_path="C:/Users/User/PythonProjects/Selenium/chromedriver.exe", options=options)
     return driver
 
 
